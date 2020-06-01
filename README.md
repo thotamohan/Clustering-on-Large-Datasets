@@ -33,8 +33,10 @@ The code written is tested on eight different types of datasets which vary by ma
   * In K-means, we will be randomly initialising centroids for clustering of data points, the probability of choosing an outlier as a       centroid is higher in some test cases which leaves a cluster with a single data point after iterations on first chunk.
   * In order to avoid this, we used Kmeans++ algorithm for initialization of clusters, where the outliers are removed from dataset by       calculating euclidean distance with less number of iterations keeping run time in mind.
   * Now the filtered datapoints are sent to K-means algorithm for initialization of clusters using only first chunk of data points.
-* Now the BFR algorithm comes into play which is nothing but an extension of K-means algorithm. 
-  
+
+* Now the BFR algorithm comes into play which is nothing but an extension of K-means algorithm.   
+  ## **Bradley-Fayyad-Reina Algorithm**
+  * Load the data points from one file.
   * Run K-Means on a small random sample of the data points to initialize the K centroids using the Euclidean distance as the                similarity measurement.
   * Use the K-Means result from b to generate the DS clusters (i.e., discard points and generate statistics).
   * The initialization of DS has finished, so far, you have K clusters in DS.
