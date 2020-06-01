@@ -111,7 +111,7 @@ Case 10, Normalized_mutual_info_score: 0.9694457605128238.
 
 # **References:**
 
-Special thanks to Prof. Anna Farzindar and Prof. Yao-Yi chiang at University of Southern California for helping me in getting a clear understanding of the BFR algorithm theoritically and practically.
+Special thanks to Prof. Anna Farzindar and Prof. Yao-Yi chiang at University of Southern California for helping me in getting a clear understanding of the BFR algorithm both theoritically and practically.
 
 
 
