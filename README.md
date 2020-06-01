@@ -49,7 +49,30 @@ The code written is tested on eight different types of datasets which vary by ma
   * Merge clusters in CS that have a Mahalanobis Distance < 𝛼√𝑑.
   * Repeat the steps f – k until all the files are processed.
   * If this is the last round (after processing the last chunk of data points), merge clusters in CS with the clusters in DS that have a     Mahalanobis Distance < 𝛼√𝑑.
-    (𝛼 is a hyper-parameter, you can choose it to be around 2, 3 or 4)
+    (𝛼 is a hyper-parameter, you can choose it to be around 2, 3 or 4).
+    
+# **Results:**
+
+========== Case 1 ==========
+Case 1, Normalized_mutual_info_score: 1.0.
+========== Case 2 ==========
+Case 2, Normalized_mutual_info_score: 0.9991522761123472.
+========== Case 3 ==========
+Case 3, Normalized_mutual_info_score: 0.9166314935216457.
+========== Case 4 ==========
+Case 4, Normalized_mutual_info_score: 0.8391938249688761.
+========== Case 5 ==========
+Case 5, Normalized_mutual_info_score: 0.8556091361909601.
+========== Case 6 ==========
+Case 6, Normalized_mutual_info_score: 0.955139581584529.
+========== Case 7 ==========
+Case 7, Normalized_mutual_info_score: 0.9104962118781372.
+========== Case 8 ==========
+Case 8, Normalized_mutual_info_score: 0.9563179222250597.
+========== Case 9 ==========
+Case 9, Normalized_mutual_info_score: 0.9999083000156554.
+========== Case 10 ==========
+Case 10, Normalized_mutual_info_score: 0.9694457605128238.
 
 
 
