@@ -54,15 +54,25 @@ The code written is tested on eight different types of datasets which vary by ma
 # **Results:**
 
 ========== Case 1 ==========
+
 Case 1, Normalized_mutual_info_score: 1.0.
+
 ========== Case 2 ==========
+
 Case 2, Normalized_mutual_info_score: 0.9991522761123472.
+
 ========== Case 3 ==========
+
 Case 3, Normalized_mutual_info_score: 0.9166314935216457.
+
 ========== Case 4 ==========
+
 Case 4, Normalized_mutual_info_score: 0.8391938249688761.
+
 ========== Case 5 ==========
+
 Case 5, Normalized_mutual_info_score: 0.8556091361909601.
+
 ========== Case 6 ==========
 Case 6, Normalized_mutual_info_score: 0.955139581584529.
 ========== Case 7 ==========
